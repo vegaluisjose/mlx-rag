@@ -1,0 +1,4 @@
+mlx==0.0.10
+mlx-lm==0.0.3
+pydantic
+unstructured[pdf]
