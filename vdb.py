@@ -48,7 +48,7 @@ def mx_array_to_chunks(data: mx.array, lengths: mx.array) -> List[str]:
         j = l.item() + i
         x = [chr(d.item()) for d in data[i:j]]
         output.append("".join(x))
-        i = l.item()
+        i += l.item()
     return output
 
 
